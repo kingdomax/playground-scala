@@ -1,0 +1,8 @@
+The server is listening for incoming connections at tcp://127.0.0.1:63612...
+Accepted incoming BSP client connection at tcp://127.0.0.1:63612
+request received: build/initialize
+BSP initialization handshake complete.
+ tracing of incoming and outgoing JSON messages create an empty file at C:\Users\pviriyathom\AppData\Local\scalameta\metals\cache\bsp.trace.json
+INFO  time: connected to build server in 6.53s
+INFO  time: imported build in 0.2s
+INFO  time: indexed workspace in 0.65s
