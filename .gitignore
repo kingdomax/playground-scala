@@ -1,5 +1,6 @@
 *.class
 *.log
 *.db
-.metals/
-.bloop/
+.metals/*
+.bloop/*
+.target/*
