@@ -1,6 +1,9 @@
 *.class
 *.log
 *.db
+*.cache
+
+.idea/*
 .metals/*
 .bloop/*
 target/*
