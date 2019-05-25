@@ -3,4 +3,5 @@
 *.db
 .metals/*
 .bloop/*
-.target/*
+target/*
+project/*
