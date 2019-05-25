@@ -1,8 +1,63 @@
-The server is listening for incoming connections at tcp://127.0.0.1:63612...
-Accepted incoming BSP client connection at tcp://127.0.0.1:63612
+The server is listening for incoming connections at tcp://127.0.0.1:51383...
+Accepted incoming BSP client connection at tcp://127.0.0.1:51383
 request received: build/initialize
 BSP initialization handshake complete.
- tracing of incoming and outgoing JSON messages create an empty file at C:\Users\pviriyathom\AppData\Local\scalameta\metals\cache\bsp.trace.json
-INFO  time: connected to build server in 6.53s
-INFO  time: imported build in 0.2s
-INFO  time: indexed workspace in 0.65s
+shutdown request received: build/shutdown
+Client in c:\AgodaGit\playground-scala\.bloop triggered cancellation. Cancelling tasks...
+The task for 'bsp --protocol tcp --host 127.0.0.1 --port 51383' finished.
+Project scala-sbt-playground-test has no analysis and setup.
+Project scala-sbt-playground has no analysis and setup.
+The server is listening for incoming connections at tcp://127.0.0.1:51447...
+Accepted incoming BSP client connection at tcp://127.0.0.1:51447
+request received: build/initialize
+BSP initialization handshake complete.
+:\AgodaGit\playground-scala\src\main\scala\CubeCalculator.scala
+WARN  code navigation does not work for the file 'c:\AgodaGit\playground-scala\src\main\scala\CubeCalculator.scala' because it doesn't belong to a build target.
+INFO  running 'sbt metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from C:\Users\pviriyathom\.sbt\1.0\plugins
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/pviriyathom/.sbt/1.0/plugins/"), "global-plugins")...
+INFO  [info] Done updating.
+INFO  [info] Loading project definition from C:\AgodaGit\playground-scala\project
+INFO  [info] Updating ProjectRef(uri("file:/C:/AgodaGit/playground-scala/project/"), "playground-scala-build")...
+INFO  [info] Done updating.
+INFO  [success] Generated .bloop\playground-scala-build.json
+INFO  [warn] Removed stale C:\AgodaGit\playground-scala\project\.bloop\scala-sbt-playground-build.json
+INFO  [success] Total time: 4 s, completed May 25, 2019 6:32:57 PM
+INFO  [info] Updating ProjectRef(uri("file:/C:/AgodaGit/playground-scala/project/"), "playground-scala-build")...
+INFO  [info] Done updating.
+INFO  [info] Loading settings for project playground-scala from build.sbt ...
+INFO  [info] Set current project to scala-sbt-playground (in build file:/C:/AgodaGit/playground-scala/)
+INFO  [info] Set current project to scala-sbt-playground (in build file:/C:/AgodaGit/playground-scala/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [info] Updating ...
+INFO  [info] Done updating.
+INFO  [success] Generated .bloop\playground-scala.json
+INFO  [success] Generated .bloop\playground-scala-test.json
+INFO  [warn] Removed stale C:\AgodaGit\playground-scala\.bloop\scala-sbt-playground-test.json
+INFO  [warn] Removed stale C:\AgodaGit\playground-scala\.bloop\scala-sbt-playground.json
+INFO  [success] Total time: 1 s, completed May 25, 2019 6:33:03 PM
+INFO  sbt exit: 0
+INFO  time: ran 'sbt bloopInstall' in 21s
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 51447'
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\pviriyathom\AppData\Local\scalameta\metals\cache\bsp.trace.json
+INFO  time: connected to build server in 2.22s
+INFO  disconnected: build server
+INFO  time: imported build in 0.11s
+INFO  time: indexed workspace in 0.36s
+INFO  compiling playground-scala (2 scala sources)
+ERROR timeout: build server 'bloop' during shutdown
+INFO  compiling playground-scala (2 scala sources)
+INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.8. Compiling...
+INFO    Compilation completed in 13.632s.
+INFO  time: compiled playground-scala in 30s
+INFO  time: compiled playground-scala in 30s
+INFO  compiling playground-scala-test (1 scala source)
+INFO  time: compiled playground-scala-test in 1.05s
+INFO  compiling playground-scala (1 scala source)
+INFO  time: compiled playground-scala in 0.2s
+ERROR 'playground-scala' failed to compile.
+INFO  compiling playground-scala (1 scala source)
+INFO  time: compiled playground-scala in 0.14s
+ERROR 'playground-scala' failed to compile.
