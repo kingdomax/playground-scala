@@ -6,7 +6,7 @@ object ObjectCalculator extends App {
     x * x * x
   }
 
-  def cubeMethod2(a: Int, b: Int)(c: Int):Int = {
+  def cubeMethod2(a: Int, b: Int)(c: Int): Int = {
     val result = a * b *  c
     result
   }
